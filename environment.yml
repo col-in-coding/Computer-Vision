@@ -1,0 +1,6 @@
+name: tf
+
+dependencies:
+- pip
+- python=3.7
+- tensorflow
