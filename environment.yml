@@ -1,6 +1,12 @@
 name: tf
 
 dependencies:
+- pandas
 - pip
 - python=3.7
 - tensorflow
+- matplotlib
+- tqdm
+
+- pip:
+  - kaggle
