@@ -1,2 +1,4 @@
 .vscode
 data/dog-breed-identification
+models
+__pycache__
