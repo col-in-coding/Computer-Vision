@@ -3,7 +3,7 @@ sys.path.append('..')
 import requests
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import tensorflow as tf
 from tqdm import tqdm
 import os
@@ -32,7 +32,7 @@ EPOCHS = 3
 # 数据集比较大，这里只保留10种狗
 NUM_CLASSES = 10 
 
-data_dir = '/home/colin/Github/Computer-Vision/data/dog-breed-identification'
+data_dir = '/training/colin/Github/Computer-Vision/data/dog-breed-identification'
 labels = pd.read_csv(join(data_dir, 'labels.csv')) # EDIT WITH YOUR LABELS FILE NAME
 # print("Total number of images in the dataset: {}".format(len(listdir(join(data_dir, 'train')))))
 # print("Top {} labels (sorted by number of samples)".format(NUM_CLASSES))
