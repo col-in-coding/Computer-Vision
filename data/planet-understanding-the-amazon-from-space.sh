@@ -1,0 +1,1 @@
+kaggle competitions download -c planet-understanding-the-amazon-from-space
