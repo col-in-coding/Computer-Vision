@@ -1,5 +1,6 @@
 .vscode
 data/dog-breed-identification
 data/planet-understanding-the-amazon-from-space
+data/tiny-imagenet-200
 models
 __pycache__

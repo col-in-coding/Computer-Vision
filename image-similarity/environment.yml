@@ -1,0 +1,12 @@
+name: pytorch
+
+channels: 
+- pytorch
+
+dependencies:
+- pip
+- python=3.8
+- pytorch
+- torchvision
+- cudatoolkit=11.0
+- numpy
